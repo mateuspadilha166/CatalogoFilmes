@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(137, 194, 194);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    justify-content: center;    
+    align-items: center;
+}
+.button1{
+    margin-top: 20px;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    background-color: aqua;
+    transition: background 1s;
+}
+.input{
+    padding: 20px;
+}
+.button1:hover,
+.button1:focus{
+    color: aliceblue;
+    cursor: pointer;
+    transition: 1s;
+    background-color: blueviolet;
+}
+.Titulo1{
+    color: blueviolet;
+}
+.listaFilme{
+    display: block;
+}
+
+.removerBotao{
+    padding: 10px;
+    margin: 10px;
+    background-color: aqua;
+    transition: background 1s;
+}
+.img{
+
+}
+.removerBotao:hover{
+    cursor: pointer;
+    transition: 1s;
+    color: #fff;
+    background-color: blueviolet;
+}
